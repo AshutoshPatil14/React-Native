@@ -29,7 +29,7 @@ const App = () => {
       ></Button>
       <TouchableOpacity
         style={styles.touchableOpacity}
-        onPress={() => alert('You clicked on a TouchableOpacity')}
+        onPress={() => Alert.alert('You clicked on a TouchableOpacity')}
       >
         <Text style={{ color: 'white', fontSize: 16, fontWeight: 'bold' }}>
           This is a TouchableOpacity
@@ -37,7 +37,7 @@ const App = () => {
       </TouchableOpacity>
       <TouchableHighlight
         style={styles.touchableHighlight}
-        onPress={() => alert('You clicked on a TouchableHighlight')}
+        onPress={() => Alert.alert('You clicked on a TouchableHighlight')}
       >
         <Text>This is a TouchableHighlight</Text>
       </TouchableHighlight>
